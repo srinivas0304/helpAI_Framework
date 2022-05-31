@@ -3,6 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.helpAI.testcases.TextAreaTest">
         <methods>
           <include name="load"/>
@@ -11,6 +12,15 @@
           <include name="loadConfig"/>
         </methods>
       </class> <!-- com.helpAI.testcases.TextAreaTest -->
+=======
+      <class name="com.helpAI.testcases.HelpAIWindowTest">
+        <methods>
+          <include name="helpWindow"/>
+          <include name="load"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- com.helpAI.testcases.HelpAIWindowTest -->
+>>>>>>> c166089 (new changes added)
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

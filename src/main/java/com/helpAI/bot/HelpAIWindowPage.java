@@ -28,6 +28,10 @@ public class HelpAIWindowPage extends BaseClass
 	{
 		WebDriverWait wait =new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//div[@id='ocs_help_bot']//div[4]//button[2]")));
+<<<<<<< HEAD
+=======
+		//wait.until(ExpectedConditions.elementToBeClickable(clickOnCantSignin));
+>>>>>>> c166089 (new changes added)
 		clickOnCantSignin.click();
 	}
 	

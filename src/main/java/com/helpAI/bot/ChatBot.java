@@ -23,7 +23,12 @@ public class ChatBot extends BaseClass
 	public HelpAIWindowPage clickOnChatBot() throws Exception
 	{
 		WebDriverWait wait=new WebDriverWait(driver, 10);
+<<<<<<< HEAD
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//a[@id='helpBotChat']")));
+=======
+		//wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("//a[@id='helpBotChat']")));
+		wait.until(ExpectedConditions.elementToBeClickable(chatBot));
+>>>>>>> c166089 (new changes added)
 		chatBot.click();
 		return new HelpAIWindowPage();
 	}	

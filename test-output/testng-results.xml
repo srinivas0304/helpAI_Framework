@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
@@ -75,6 +76,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- com.helpAI.testcases.TextAreaTest -->
+=======
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20836" started-at="2022-05-31T18:00:35 IST" finished-at="2022-05-31T18:00:56 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20836" started-at="2022-05-31T18:00:35 IST" finished-at="2022-05-31T18:00:56 IST">
+      <class name="com.helpAI.testcases.HelpAIWindowTest">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.helpAI.testcases.HelpAIWindowTest@5d11346a]" name="loadConfig" is-config="true" duration-ms="5" started-at="2022-05-31T18:00:35 IST" finished-at="2022-05-31T18:00:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="load()[pri:0, instance:com.helpAI.testcases.HelpAIWindowTest@5d11346a]" name="load" is-config="true" duration-ms="3866" started-at="2022-05-31T18:00:35 IST" finished-at="2022-05-31T18:00:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+        <test-method status="PASS" signature="helpWindow()[pri:0, instance:com.helpAI.testcases.HelpAIWindowTest@5d11346a]" name="helpWindow" duration-ms="16934" started-at="2022-05-31T18:00:39 IST" finished-at="2022-05-31T18:00:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helpWindow -->
+      </class> <!-- com.helpAI.testcases.HelpAIWindowTest -->
+>>>>>>> c166089 (new changes added)
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
